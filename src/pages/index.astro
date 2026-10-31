@@ -1,0 +1,190 @@
+---
+import '../styles/global.css';
+
+const masterclass = 'https://michael-borck.github.io/the-human-edge/';
+const cnd = 'https://conversationnotdelegation.com';
+const books = 'https://books.borck.education';
+const consulting = 'https://borck.consulting';
+const email = 'mailto:michael@borck.dev?subject=The%20Human%20Edge';
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  name: 'The Human Edge: Using AI with Judgement',
+  author: {
+    '@type': 'Person',
+    name: 'Michael Borck',
+    url: 'https://borck.dev',
+  },
+  url: 'https://thehumanedge.borck.dev',
+  image: 'https://thehumanedge.borck.dev/cover.png',
+  description:
+    'When everyone has the same AI tools, generic competence is the baseline. The edge is judgement: knowing what to ask, when to trust the answer, and where a person stays in charge.',
+  inLanguage: 'en-AU',
+  creativeWorkStatus: 'In development',
+};
+---
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Human Edge · Using AI with Judgement</title>
+  <meta name="description" content="When everyone has the same AI tools, generic competence is the baseline. The edge is judgement. A book and masterclass by Michael Borck." />
+  <link rel="canonical" href="https://thehumanedge.borck.dev/" />
+  <link rel="icon" href="/favicon.svg" />
+  <meta name="theme-color" content="#f5e6c8" />
+  <meta property="og:title" content="The Human Edge · Using AI with Judgement" />
+  <meta property="og:description" content="Everyone has the same AI tools now. The edge is judgement." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thehumanedge.borck.dev/" />
+  <meta property="og:site_name" content="The Human Edge" />
+  <meta property="og:image" content="https://thehumanedge.borck.dev/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://thehumanedge.borck.dev/og.png" />
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+</head>
+<body>
+
+<header class="topbar">
+  <a class="wordmark" href="/">The Human <span>Edge</span></a>
+  <nav class="nav">
+    <a href={masterclass}>The masterclass</a>
+    <a href={cnd}>The method</a>
+    <a href={books}>Books</a>
+    <a href={consulting}>Consulting</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Judgement / Workplace AI</p>
+      <h1>The Human <span>Edge</span></h1>
+      <p class="subtitle">Using AI with Judgement</p>
+      <p class="lead">Everyone has the same AI tools now. The edge is judgement.</p>
+      <p class="body">
+        Generic competence used to be an advantage. It is now the baseline. This book
+        and masterclass are about the part AI cannot manufacture: knowing what to ask,
+        deciding how much to trust the answer, checking it from outside the tool, and
+        keeping a person in charge where the stakes require it.
+      </p>
+      <div class="actions">
+        <a class="btn" href={masterclass}>See the masterclass</a>
+        <a class="btn btn-ghost" href={email}>Talk about a workshop</a>
+      </div>
+      <p class="status">The book is in manuscript. The one-day masterclass is running.</p>
+    </div>
+    <div class="hero-cover">
+      <img
+        src="/cover.png"
+        alt="The Human Edge: Using AI with Judgement by Michael Borck"
+        width="600"
+        height="900"
+      />
+    </div>
+  </section>
+
+  <section class="pullquote">
+    <p>AI can do the work. It cannot carry the consequence.</p>
+  </section>
+
+  <section class="section">
+    <p class="section-kicker">The problem</p>
+    <h2>Fluent output is not the same as good work.</h2>
+    <div class="split">
+      <p>
+        A report arrives. It is fluent, well structured, and complete. So does a data
+        brief, a proposal, and a plan for a difficult conversation. Any professional
+        with Copilot, ChatGPT, Claude, or Gemini can now produce work that looks like
+        this, in minutes.
+      </p>
+      <p>
+        The failure is hard to spot. A rushed human draft looks rushed, and the gaps
+        show. An AI output that is wrong arrives polished, complete, and confident, in
+        the same tone as an output that is right. The instinct you have spent your
+        career building stays quiet exactly when you need it.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="section-kicker">The four moves</p>
+    <h2>Judge. Brief. Check. Deliver.</h2>
+    <div class="grid">
+      <article class="card">
+        <p class="card-num">01</p>
+        <h3>Judge</h3>
+        <p class="card-tool">Trust Tool</p>
+        <p>How much should I trust this output? A ten-second habit for every output.</p>
+      </article>
+      <article class="card">
+        <p class="card-num">02</p>
+        <h3>Brief</h3>
+        <p class="card-tool">RTCF</p>
+        <p>How do I ask for what I need? Build a prompt library that holds up.</p>
+      </article>
+      <article class="card">
+        <p class="card-num">03</p>
+        <h3>Check</h3>
+        <p class="card-tool">Check Loop</p>
+        <p>How do I know it is right? Verify the claim from outside the tool.</p>
+      </article>
+      <article class="card">
+        <p class="card-num">04</p>
+        <h3>Deliver</h3>
+        <p class="card-tool">Opportunity Finder</p>
+        <p>Will it work every week? Put it into a real workflow with human checkpoints.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="section-kicker">The method underneath</p>
+    <h2>Conversation, not delegation.</h2>
+    <p class="section-lead">
+      The Human Edge is the workplace book. Conversation, Not Delegation is the method
+      underneath it: the discipline of thinking with AI instead of handing the thinking
+      over. The four moves in this book are that method applied to the work you sign
+      your name to.
+    </p>
+    <a class="text-link" href={cnd}>Read the framework →</a>
+  </section>
+
+  <section class="section team">
+    <div>
+      <p class="section-kicker">For teams</p>
+      <h2>Bring the masterclass to your team.</h2>
+      <p class="section-lead">
+        A one-day program built from the book. Four sessions, eight exercises, four
+        reusable tools. It is for professionals who need to decide what AI should do,
+        what a person must still own, and how to explain that choice to a client or a
+        regulator.
+      </p>
+    </div>
+    <div class="actions">
+      <a class="btn" href={masterclass}>See the masterclass</a>
+      <a class="btn btn-ghost" href={email}>Email Michael</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>
+    Michael Borck · Perth, Western Australia ·
+    <a href="mailto:michael@borck.dev">michael@borck.dev</a>
+  </p>
+  <p class="footer-links">
+    <a href={cnd}>Conversation, Not Delegation</a>
+    <a href={books}>Books</a>
+    <a href={consulting}>borck.consulting</a>
+    <a href="https://borck.dev">borck.dev</a>
+  </p>
+</footer>
+
+</body>
+</html>
