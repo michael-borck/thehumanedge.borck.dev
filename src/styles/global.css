@@ -279,6 +279,22 @@ h3 {
 }
 .text-link:hover { color: var(--text); border-color: var(--text); }
 
+.citation {
+  margin: 0 0 1rem;
+  max-width: 46rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+.disclosure {
+  margin: 1.5rem 0 0;
+  max-width: 46rem;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
 .team {
   display: flex;
   justify-content: space-between;
