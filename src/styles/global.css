@@ -171,6 +171,7 @@ h1 span { color: var(--gold); }
   display: block;
   width: 100%;
   max-width: 360px;
+  height: auto;
   margin-left: auto;
   border-radius: 4px;
   box-shadow: 0 20px 60px rgba(32, 41, 38, 0.18);
